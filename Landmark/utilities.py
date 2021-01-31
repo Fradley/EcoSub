@@ -17,7 +17,7 @@ def main():
     dl = DataLoader('Data')
     l, r = list(dl.iter)[0]
     ld = LandmarkDetector(l, r)
-    ld.show()
+    ld.find_objects()
 
 
 if __name__ == "__main__":
